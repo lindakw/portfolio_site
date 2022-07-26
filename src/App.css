@@ -66,13 +66,10 @@ p, ul, h4 {
   color: #fff;
 }
 
-.about {
-  margin: 100px;
+section {
+  margin: 50px;
 }
 
-.skills {
-  margin: 100px;
-}
 
 .skill_icons {
   list-style-type: none;
@@ -101,10 +98,6 @@ p, ul, h4 {
   margin-top: -25px;
 }
 
-.projects {
-  margin: 100px;
-}
-
 .carousel-item {
   margin: auto;
   height: auto;
@@ -128,14 +121,12 @@ p, ul, h4 {
   margin: 0;
 }
 
-.experience {
-  margin: 100px;
+.formal_ed {
+  margin-bottom: 50px;
 }
-
 
 .contact {
   text-align: center;
-  margin: 100px;
   font-size: 2rem;
 }
 

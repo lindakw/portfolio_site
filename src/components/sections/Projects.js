@@ -1,10 +1,10 @@
 import React from "react";
 
-import newsWeather_app from "../../../assets/images/news-weather_app.png";
-import doozit_app from "../../../assets/images/doozit_app.jpg";
-import birlog_app from "../../../assets/images/birlog_login.png";
-import random_quote from "../../../assets/images/random_quote.png";
-import event_countdown from "../../../assets/images/event_countdown.png";
+import newsWeather_app from "../../assets/images/news-weather_app.png";
+import doozit_app from "../../assets/images/doozit_app.jpg";
+import birlog_app from "../../assets/images/birlog_login.png";
+import random_quote from "../../assets/images/random_quote.png";
+import event_countdown from "../../assets/images/event_countdown.png";
 
 const Projects = () => {
   return (

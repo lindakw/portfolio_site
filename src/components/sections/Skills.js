@@ -16,13 +16,11 @@ import {
   SiGithub,
   SiPostman,
   SiHeroku,
-  SiLinkedin,
-  SiSolidity,
 } from "react-icons/si";
 
 const Skills = () => {
   return (
-    <div>
+    <section className="skills" id="skills">
       {" "}
       <h3>My Skills</h3>
       <ul className="skill_icons">
@@ -87,7 +85,7 @@ const Skills = () => {
           <p>Postman</p>
         </li>
       </ul>
-    </div>
+    </section>
   );
 };
 
