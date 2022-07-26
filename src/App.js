@@ -1,12 +1,11 @@
 import "./App.css";
 
 import profileImg from "./assets/images/profile2.jpg";
-import newsWeather_app from "./assets/images/news-weather_app.png";
-import doozit_app from "./assets/images/doozit_app.jpg";
-import birlog_app from "./assets/images/birlog_login.png";
+
 import Skills from "./components/sections/skills/Skills";
 import Nav from "./components/nav/Nav";
-import { SiLinkedin } from "react-icons/si";
+import Projects from "./components/sections/projects/Projects";
+import { SiGithub, SiGmail, SiLinkedin, SiMailchimp } from "react-icons/si";
 
 function App() {
   return (
@@ -32,63 +31,29 @@ function App() {
 
       <section className="about" id="about">
         <h3>About Me </h3>
-        <p></p>
+        <p>
+          Technology amazes me! I have been fascinated with coding and web
+          development for many many years. I have a B.S. in Web Development and
+          Design, graduated from Full Sail University in 2014. I am passionate
+          about learning and I am always actively trying to learn something new.
+          Currently, it is my mission to learn GOLang.
+        </p>
+        <p>
+          Javascript was the first language I learned, aside from HTML/CSS. The
+          first snippet of code I wrote was an automation for Photoshop. After I
+          saw how much easier it made my work, I was hooked.
+        </p>
+        <p>
+          Technology has the ability to improve our lives in so many ways. I
+          want be a part of the tech revolution.
+        </p>
       </section>
 
       <section className="skills" id="skills">
         <Skills />
       </section>
 
-      <section className="projects" id="projects">
-        <h3>Projects</h3>
-        <div
-          id="carouselExampleControls"
-          class="carousel slide"
-          data-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block" src={newsWeather_app} alt="First slide" />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Full Stack News-Weather App</h5>
-                <p></p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="d-block" src={doozit_app} alt="Second slide" />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Doozit-Gamified To Do App</h5>
-                <p></p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="d-block" src={birlog_app} alt="Third slide" />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Birlog-Full Stack Blog App</h5>
-                <p></p>
-              </div>
-            </div>
-          </div>
-          <a
-            class="carousel-control-prev"
-            href="#carouselExampleControls"
-            role="button"
-            data-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a
-            class="carousel-control-next"
-            href="#carouselExampleControls"
-            role="button"
-            data-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </section>
+      <Projects />
 
       <section className="experience" id="experience">
         <h3>Work Experience</h3>
@@ -98,17 +63,29 @@ function App() {
         <ul>
           <li>
             Work with other engineers and designers to build full stack mobile
-            apps in React Native
+            apps using React Native
           </li>
-          <li>Communicate with team lead and team on a daily basis</li>
+          <li>Communicate with team lead and team members on a daily basis</li>
+          <li>
+            Contribute to the success of others by co-teaching courses for
+            pre-apprentices and actively participating in the slack community
+          </li>
         </ul>
       </section>
 
       <section className="contact" id="contact">
         <h3>Connect With Me</h3>
-        <a href="https://www.linkedin.com/in/linda-k-westphal-1aba9a1b5/">
-          <SiLinkedin />
-        </a>
+        <div className="connect-links">
+          <a href="https://www.linkedin.com/in/linda-k-westphal-1aba9a1b5/">
+            <SiLinkedin />
+          </a>
+          <a href="https://github.com/lindakw">
+            <SiGithub />
+          </a>
+          <a href="mailto:lindakwestphal@gmail.com">
+            <SiGmail />
+          </a>
+        </div>
       </section>
       <footer>
         <p>Designed & Built by Linda Westphal</p>
