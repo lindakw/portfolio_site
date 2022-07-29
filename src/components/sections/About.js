@@ -17,8 +17,8 @@ const About = () => {
         saw how much easier it made my work, I was hooked.
       </p>
       <p>
-        Technology has the ability to improve our lives in so many ways. I want
-        be a part of the tech revolution.
+        Technology has the ability to improve our lives in so many ways. I am
+        determined be a part of that world changing revolution.
       </p>
     </section>
   );

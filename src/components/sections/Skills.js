@@ -18,6 +18,8 @@ import {
   SiHeroku,
 } from "react-icons/si";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const Skills = () => {
   return (
     <section className="skills" id="skills">
