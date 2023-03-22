@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 import {
   SiJavascript,
@@ -16,14 +16,12 @@ import {
   SiGithub,
   SiPostman,
   SiHeroku,
-} from "react-icons/si";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+} from 'react-icons/si';
 
 const Skills = () => {
   return (
     <section className="skills" id="skills">
-      {" "}
+      {' '}
       <h3>My Skills</h3>
       <ul className="skill_icons">
         <li className="skill_icon">

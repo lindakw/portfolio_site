@@ -1,13 +1,13 @@
-import React from "react";
+import React from 'react';
 
-import profileImg from "../../assets/images/profile2.jpg";
+import profileImg from '../../assets/images/profile2.jpg';
 const Intro = () => {
   return (
     <section className="intro" id="intro">
       <div className="profileImg">
         <img
           src={profileImg}
-          alt="Profile Image"
+          alt="Profile"
           style={{
             height: 260,
             width: 200,

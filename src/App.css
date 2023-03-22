@@ -3,13 +3,14 @@
   justify-content: center;
   flex-direction: column;
   text-align: left;
-  background-color: #283c47;
+  cursor: pointer;
+  cursor: pointer;
+  background: linear-gradient(#e9cbe0, #dfdfdf);
   height: 100%;
   color: #778b8d;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 25px;
-  /* padding-bottom: 150px; */
   margin: 0;
 }
 
@@ -17,6 +18,7 @@
   font-size: 1.25rem;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .brand {
@@ -26,11 +28,12 @@
 }
 
 .nav-link {
-  display:flex;
+  display: flex;
   flex-direction: row;
-  color:  rgb(98, 140, 126);
+  color: rgb(98, 140, 126);
   align-items: center;
   margin-top: 0;
+  color: #747474;
 }
 
 .intro {
@@ -52,7 +55,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem; 
+  font-size: 2rem;
   margin-top: 30px;
 }
 
@@ -65,7 +68,9 @@ p {
   font-size: 1.25rem;
 }
 
-p, ul, h4 {
+p,
+ul,
+h4 {
   color: rgb(213, 220, 223);
 }
 
@@ -87,9 +92,8 @@ section {
 }
 
 .back-to-top:hover {
-  background: rgb(33, 116, 216)
+  background: rgb(33, 116, 216);
 }
-
 
 .skill_icons {
   list-style-type: none;
@@ -99,8 +103,7 @@ section {
   justify-content: center;
   align-items: center;
   font-size: 2.5rem;
-  color: rgb(33, 116, 216)
-  ;
+  color: rgb(33, 116, 216);
   margin-bottom: 0;
 }
 
@@ -113,7 +116,7 @@ section {
 }
 
 .skill_icon:hover p {
-  font-size: .75rem;
+  font-size: 0.75rem;
   display: block;
   text-align: center;
   margin-top: -25px;
@@ -196,17 +199,16 @@ footer {
     display: fixed;
     margin: auto;
   }
-  
+
   .back-to-top {
     font-size: 45px;
     right: 20px;
   }
 }
 
-@media screen and (max-width:1064px) {
+@media screen and (max-width: 1064px) {
   .d-block {
     width: 30%;
     margin: auto;
   }
-
 }

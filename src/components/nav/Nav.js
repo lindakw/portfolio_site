@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import Nav from "react-bootstrap/Nav";
-import Hamburger from "./Hamburger";
+import React, { useState } from 'react';
+import Nav from 'react-bootstrap/Nav';
+import Hamburger from './Hamburger';
 
 const NavBar = () => {
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
@@ -17,18 +17,17 @@ const NavBar = () => {
       </div>
 
       <nav className="nav-link">
-        <Nav.Link href="#about">About</Nav.Link>
-        <Nav.Link href="#skills">Skills</Nav.Link>
-        <Nav.Link href="#projects">Projects</Nav.Link>
-        <Nav.Link href="#experience">Experience</Nav.Link>
-        <Nav.Link href="#contact">Contact</Nav.Link>
+        <Nav.Link href="#about">about</Nav.Link>
+        <Nav.Link href="#skills">skills</Nav.Link>
+        <Nav.Link href="#projects">projects</Nav.Link>
+        <Nav.Link href="#contact">contact</Nav.Link>
       </nav>
 
       <style jsx>{`
 
         @media screen and (max-width: 767px) {
           .nav-link {
-            display: ${hamburgerOpen ? "block" : "none"};
+            display: ${hamburgerOpen ? 'block' : 'none'};
             text-align: center;
           `}</style>
     </div>
