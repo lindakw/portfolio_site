@@ -7,7 +7,7 @@
   cursor: pointer;
   background: linear-gradient(#e9cbe0, #dfdfdf);
   height: 100%;
-  color: #778b8d;
+  color: #747474;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 25px;
@@ -38,25 +38,24 @@
 
 .intro {
   margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+
 }
 
 .profileImg {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin: 100px;
+  margin-right: 100px;
+  align-self: center;
 }
 
 h1 {
   font-size: 5rem;
   font-family: 'Anton', sans-serif;
   letter-spacing: 3px;
-  margin-top: 50px;
 }
 
 h2 {
   font-size: 2rem;
-  margin-top: 30px;
 }
 
 h3 {
@@ -71,11 +70,15 @@ p {
 p,
 ul,
 h4 {
-  color: rgb(213, 220, 223);
+  color: rgb(0, 0, 0);
 }
 
 section {
   margin: 50px;
+}
+
+.aboutMe {
+  padding-top: 20px;
 }
 
 .back-to-top {
@@ -102,8 +105,8 @@ section {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  font-size: 2.5rem;
-  color: rgb(33, 116, 216);
+  font-size: 3rem;
+  color: rgb(56, 58, 59);
   margin-bottom: 0;
 }
 

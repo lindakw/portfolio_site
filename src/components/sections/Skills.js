@@ -15,7 +15,10 @@ import {
   SiGit,
   SiGithub,
   SiPostman,
-  SiHeroku,
+  SiWordpress,
+  SiPhp,
+  SiShopify,
+  SiPostgresql
 } from 'react-icons/si';
 
 const Skills = () => {
@@ -45,6 +48,10 @@ const Skills = () => {
           <p>CSS</p>
         </li>
         <li className="skill_icon">
+          <SiPhp style={{ margin: 15 }} />
+          <p>PHP</p>
+        </li>
+        <li className="skill_icon">
           <SiBootstrap style={{ margin: 15 }} />
           <p>Bootstrap</p>
         </li>
@@ -69,6 +76,10 @@ const Skills = () => {
           <p>MySql</p>
         </li>
         <li className="skill_icon">
+          <SiPostgresql style={{ margin: 15 }} />
+          <p>PostgreSQL</p>
+        </li>
+        <li className="skill_icon">
           <SiGit style={{ margin: 15 }} />
           <p>Git</p>
         </li>
@@ -77,12 +88,16 @@ const Skills = () => {
           <p>GitHub</p>
         </li>
         <li className="skill_icon">
-          <SiHeroku style={{ margin: 15 }} />
-          <p>Heroku</p>
-        </li>
-        <li className="skill_icon">
           <SiPostman style={{ margin: 15 }} />
           <p>Postman</p>
+        </li>
+        <li className="skill_icon">
+          <SiWordpress style={{ margin: 15 }} />
+          <p>WordPress</p>
+        </li>
+        <li className="skill_icon">
+          <SiShopify style={{ margin: 15 }} />
+          <p>Shopify</p>
         </li>
       </ul>
     </section>
