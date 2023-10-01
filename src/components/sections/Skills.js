@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 import {
   SiJavascript,
@@ -15,15 +15,16 @@ import {
   SiGit,
   SiGithub,
   SiPostman,
-  SiHeroku,
-} from "react-icons/si";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+  SiWordpress,
+  SiPhp,
+  SiShopify,
+  SiPostgresql
+} from 'react-icons/si';
 
 const Skills = () => {
   return (
     <section className="skills" id="skills">
-      {" "}
+      {' '}
       <h3>My Skills</h3>
       <ul className="skill_icons">
         <li className="skill_icon">
@@ -45,6 +46,10 @@ const Skills = () => {
         <li className="skill_icon">
           <SiCss3 style={{ margin: 15 }} />
           <p>CSS</p>
+        </li>
+        <li className="skill_icon">
+          <SiPhp style={{ margin: 15 }} />
+          <p>PHP</p>
         </li>
         <li className="skill_icon">
           <SiBootstrap style={{ margin: 15 }} />
@@ -71,6 +76,10 @@ const Skills = () => {
           <p>MySql</p>
         </li>
         <li className="skill_icon">
+          <SiPostgresql style={{ margin: 15 }} />
+          <p>PostgreSQL</p>
+        </li>
+        <li className="skill_icon">
           <SiGit style={{ margin: 15 }} />
           <p>Git</p>
         </li>
@@ -79,12 +88,16 @@ const Skills = () => {
           <p>GitHub</p>
         </li>
         <li className="skill_icon">
-          <SiHeroku style={{ margin: 15 }} />
-          <p>Heroku</p>
-        </li>
-        <li className="skill_icon">
           <SiPostman style={{ margin: 15 }} />
           <p>Postman</p>
+        </li>
+        <li className="skill_icon">
+          <SiWordpress style={{ margin: 15 }} />
+          <p>WordPress</p>
+        </li>
+        <li className="skill_icon">
+          <SiShopify style={{ margin: 15 }} />
+          <p>Shopify</p>
         </li>
       </ul>
     </section>

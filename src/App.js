@@ -39,7 +39,6 @@ function App() {
           &#8679;
         </button>
       )}
-      <About />
       <Skills />
       <Projects />
       <Experience />
