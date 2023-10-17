@@ -4,7 +4,7 @@ const Experience = () => {
   return (
     <section className="experience" id="experience">
       <h3>Freelance Work Experience</h3>
-      <h4>Web/App Developer @Sabaidee Fest</h4>
+      <h4>Web/App Developer <a href="https://www.sabaideefest.com/">@Sabaidee Fest</a></h4>
       <p>October 2022-Present</p>
       <ul>
         <li>

@@ -4,17 +4,18 @@ import profileImg from '../../assets/images/profile2.jpg';
 const Intro = () => {
   return (
     <section className="intro" id="intro">
-      {/* <div className="profileImg">
+      <div className="profileImg">
         <img
           src={profileImg}
           alt="Profile"
-          style={{
-            height: 520,
-            width: 400,
-            border: 3,
-          }}
+          className='profileImg'
+          // style={{
+          //   height: 468,
+          //   width: 360,
+          //   border: 3,
+          // }}
         />
-      </div> */}
+      </div>
       <div className="inroText">
         <h1>Hi, I'm Linda.</h1>
         <h2>Full Stack Developer</h2>

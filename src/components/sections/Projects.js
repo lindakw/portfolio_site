@@ -1,8 +1,8 @@
 import React from "react";
 
-import newsWeather_app from "../../assets/images/news-weather_app.png";
+import air_o_meter from "../../assets/images/air_o_meter.jpeg";
 import doozit_app from "../../assets/images/doozit_app.jpg";
-import birlog_app from "../../assets/images/birlog_login.png";
+import sbdf_main from "../../assets/images/sbdf_main.png";
 import random_quote from "../../assets/images/random_quote.png";
 import event_countdown from "../../assets/images/event_countdown.png";
 
@@ -17,16 +17,18 @@ const Projects = () => {
       >
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block" src={newsWeather_app} alt="First slide" />
+            <a href="https://youtube.com/shorts/Eyhfuo8131s?feature=share">
+              <p class="demo">Click for Video Demo</p>
+              <img class="d-block" src={air_o_meter} alt="First slide" />
+            </a>
             <div class="carousel-caption d-none d-md-block">
-              <h5>Full Stack News-Weather App</h5>
+              <h5>AirOMeter App</h5>
               <p>
-                Built using React Native and REST with Open Weather Map and News
-                API's
+                Built using React Native and REST using Aqicn.org
+                API and also incorporates geolocation
               </p>
               <p>
-                User inputs search terms for news stories and city for weather
-                forecast
+                User inputs city in search bar or uses geolocator icon to get the air quality information
               </p>
             </div>
           </div>
@@ -42,18 +44,22 @@ const Projects = () => {
             </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block" src={birlog_app} alt="Third slide" />
+            <a href="https://play.google.com/store/apps/details?id=com.lindakw.sabaidee_fest_app&pcampaignid=web_share">
+            <p class="demo">Downdload from Play Store</p>
+              <img class="d-block" src={sbdf_main} alt="Third slide" />
+            </a>
             <div class="carousel-caption d-none d-md-block">
-              <h5>Birlog-Full Stack Blog App</h5>
-              <p>Built using React Native, REST and MongoDB</p>
+              <h5>Sabaidee Fest App</h5>
+              <p>Built using React Native</p>
               <p>
-                Incorporates user auth, password encryption and CRUD
-                functionality
+                Built to provide festival goers with a user friendly way to navigate through schedules, artist lineups, site map and food vendors. Launched on the Google Play Store.
               </p>
             </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block" src={random_quote} alt="Forth slide" />
+            <a href="https://lindakw.github.io/RandomQuoteGenerator">
+            <p class="demo">Click for Demo</p>
+              <img class="d-block" src={random_quote} alt="Forth slide" /></a>
             <div class="carousel-caption d-none d-md-block">
               <h5>Random Quote Generator</h5>
               <p>Built using HTML, CSS and Javascript with quote API</p>
@@ -64,7 +70,9 @@ const Projects = () => {
             </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block" src={event_countdown} alt="Fifth slide" />
+            <a href="https://lindakw.github.io/Event-Countdown/">
+              <p class="demo">Click for Demo</p>
+              <img class="d-block" src={event_countdown} alt="Fifth slide" /></a>
             <div class="carousel-caption d-none d-md-block">
               <h5>Event Countdown Clock</h5>
               <p>Built using HTML, CSS and Javascript.</p>

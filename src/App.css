@@ -46,12 +46,15 @@
 .profileImg {
   margin-right: 100px;
   align-self: center;
+  max-width: 100%;
+
 }
 
 h1 {
   font-size: 5rem;
   font-family: 'Anton', sans-serif;
   letter-spacing: 3px;
+  color:rgb(85, 172, 172);
 }
 
 h2 {
@@ -73,6 +76,14 @@ h4 {
   color: rgb(0, 0, 0);
 }
 
+a {
+  color:#747474;
+}
+
+a:hover {
+  color:rgb(85, 172, 172);
+ }
+
 section {
   margin: 50px;
 }
@@ -86,7 +97,7 @@ section {
   bottom: 20px;
   right: 50px;
   font-size: 60px;
-  background: rgb(98, 140, 126);
+  background: rgb(85, 172, 172);
   color: white;
   cursor: pointer;
   border-radius: 100px;
@@ -95,7 +106,7 @@ section {
 }
 
 .back-to-top:hover {
-  background: rgb(33, 116, 216);
+  background: rgb(242, 177, 220);
 }
 
 .skill_icons {
@@ -106,7 +117,7 @@ section {
   justify-content: center;
   align-items: center;
   font-size: 3rem;
-  color: rgb(56, 58, 59);
+  color: rgb(85, 172, 172);
   margin-bottom: 0;
 }
 
@@ -148,6 +159,13 @@ section {
   margin: 0;
 }
 
+.carousel-item p {
+  color: white;
+}
+.carousel-item .demo {
+  color:black;
+}
+
 .formal_ed {
   margin-bottom: 50px;
 }
@@ -159,8 +177,12 @@ section {
 
 .connect-links a {
   margin: 10px;
+  color:rgb(85, 172, 172);
 }
 
+.connect-links a:hover {
+  color:rgb(242, 177, 220);
+}
 footer {
   text-align: center;
 }
@@ -211,7 +233,34 @@ footer {
 
 @media screen and (max-width: 1064px) {
   .d-block {
-    width: 30%;
+    width: 50%;
     margin: auto;
   }
+  .intro{
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    padding-top: 25px;
+  }
+  .profileImg {
+    max-width: 90%;
+    margin: auto;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 915px) {
+  .main {
+    margin: auto;
+    padding: 10px;
+  }
+  .profileImg {
+    max-width: 100%;
+  }
+  .d-block {
+    width: 50%;
+    margin: auto;
+  }
+
+  
 }

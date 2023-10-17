@@ -5,7 +5,6 @@ import Skills from "./components/sections/Skills";
 import NavBar from "./components/nav/Nav";
 import Projects from "./components/sections/Projects";
 import Intro from "./components/sections/Intro";
-import About from "./components/sections/About";
 import Experience from "./components/sections/Experience";
 import Education from "./components/sections/Education";
 import Contact from "./components/sections/Contact";
